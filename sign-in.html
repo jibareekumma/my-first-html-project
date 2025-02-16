@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Jibare" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="images/favicon.png" type="images/png" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jibare Web Developments</h1>
+      <nav>
+        <div class="navigation-bar">
+          <ul type="square">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us </a></li>
+            <li><a href="services.html">Our services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="registration">
+          <ul>
+            <li><a href="sign-up.html">sign-up</a></li>
+            <li><a href="sign-in.html">sign-in</a></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <input type="text" name="search" placeholder="search" size="20px" />
+          <button type="submit">Search</button>
+        </div>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <form action="index.php">
+        <fieldset>
+          <legend>Fill in your details here</legend>
+          <label for="email"> <b>Email-Address</b></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            minlength="5"
+            required
+            size="35"
+            placeholder="email-address"
+          />
+          <br />
+          <br />
+          <label for="password"> <b>Password</b></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+            size="35"
+            minlength="6"
+            required
+          />
+        </fieldset>
+        <br />
+        <br />
+        <button type="submit">LOG-IN</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        All reserved copyrights &copy;
+        <br />
+        Author: Jibare Web
+      </p>
+      <p>
+        contact us:
+        <a href="mailto:shadowcelebekumma@gmail.com">
+          <img
+            src="images/mail logo.jpg"
+            alt="mail logo"
+            width="40"
+            height="40"
+            title="send us a email"
+          />
+        </a>
+        <a href="https://twitter.com/jibare01">
+          <img
+            src="images/x logo.jpg"
+            alt="Logo on X"
+            title="follow us on x"
+            width="40"
+            height="40"
+          />
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
